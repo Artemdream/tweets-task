@@ -2,9 +2,8 @@ import styled from "styled-components";
 
 export const Header = styled.header`
   display: flex;
+  justify-content: end;
   padding: 20px 0;
-  margin-bottom: 40px;
   align-items: center;
-  justify-content: space-between;
-  border-bottom: 1px solid rgb(255, 255, 255);
+  border-bottom: 2px solid rgb(235, 216, 255);
 `;

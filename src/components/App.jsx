@@ -1,7 +1,6 @@
 import { Navigate, Route, Routes } from "react-router-dom";
-import { Home } from "../pages/Home";
-
-import Tweets from "../pages/Tweets";
+import { Home } from "../pages/Home/Home";
+import Tweets from "../pages/Tweets/Tweets";
 import { GlobalStyle } from "../styles/GlobalStyle";
 import Layout from "./Layout/Layout";
 

@@ -1,10 +1,10 @@
-import { Link, Nav } from "./Navigation.style";
+import { Link } from "./Navigation.style";
 
 export const Navigation = () => {
   return (
-    <Nav>
+    <nav>
       <Link to="/">Home</Link>
       <Link to="/tweets">Tweets</Link>
-    </Nav>
+    </nav>
   );
 };
